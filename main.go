@@ -5,7 +5,7 @@ import "fmt"
 func luasLingkaran(jari int) float32{
 	var phi float32
 	if (jari % 7 == 0){
-		phi = 22/7
+		phi = 22.0 / 7.0
 	}else {
 		phi = 3.14
 	}
@@ -16,7 +16,7 @@ func luasLingkaran(jari int) float32{
 func kelLingkaran(jari int) float32{
 	var phi float32
 	if (jari % 7 == 0){
-		phi = 22/7
+		phi = 22.0 / 7.0
 	}else{
 		phi = 3.14
 	}
