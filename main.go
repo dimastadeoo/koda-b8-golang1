@@ -29,7 +29,7 @@ func main(){
 	fmt.Print("Masukkan Jari - Jari Lingkaran: ")
 	fmt.Scan(&r)
 	fmt.Println("----------------------------------------")
-	fmt.Printf("Luas Lingkaran %f \n", luasLingkaran(r))
-	fmt.Printf("Keliling Lingkaran %f \n", kelLingkaran(r))
+	fmt.Printf("Luas Lingkaran %.2f \n", luasLingkaran(r))
+	fmt.Printf("Keliling Lingkaran %.2f \n", kelLingkaran(r))
 	fmt.Println("----------------------------------------")
 }
