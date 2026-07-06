@@ -25,8 +25,11 @@ func kelLingkaran(jari int) float32{
 }
 
 func main(){
-	r := 30
-	fmt.Printf("Lingkaran dengan Jari - Jari %d: \n", r)
+	var r int
+	fmt.Print("Masukkan Jari - Jari Lingkaran: ")
+	fmt.Scan(&r)
+	fmt.Println("----------------------------------------")
 	fmt.Printf("Luas Lingkaran %f \n", luasLingkaran(r))
 	fmt.Printf("Keliling Lingkaran %f \n", kelLingkaran(r))
+	fmt.Println("----------------------------------------")
 }
